@@ -4,7 +4,7 @@ def main():
 
 def even(x):
     div = x % 2
-    if div == 0:
+    if div == 0 and x > 2:
         print("YES")
     else:
         print("NO")
