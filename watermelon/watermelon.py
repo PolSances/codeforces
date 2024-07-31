@@ -11,7 +11,7 @@ def even(x):
 
 def get_weight():
     while True: 
-        x = int(input("How much does it weigh? "))
+        x = int(input())
         if 1 <= x <= 100:
             break
         else:
