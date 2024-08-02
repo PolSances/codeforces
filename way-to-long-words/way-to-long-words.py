@@ -1,14 +1,15 @@
 def main():
-    get_letters()
+    input_user()
 
 
-def get_letters():
-    x = str(input())
-    n = len(x)
-    if n > 10:
-        print(f"{x[0]}{n}{x[n-1]}")
-    else:
-        print(x)
-
+def input_user():
+    n = int(input())
+    for _ in range(n):
+        palabra = input()
+        if len(palabra) > 10:
+            abreviacion = palabra[0] + str(len(palabra) - 2) + palabra[-1]
+            print(abreviacion)
+        else:
+            print(palabra)
 
 main()
