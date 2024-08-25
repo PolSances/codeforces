@@ -10,7 +10,7 @@ def function1():
         k = int(variables[2])
         river = input()
         for i in range(0,len(river)-1):
-            input()
-    
+            if i > 0:
+                print("33")
 
 main()
