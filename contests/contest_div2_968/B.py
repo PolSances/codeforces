@@ -3,7 +3,8 @@ def main():
 
 
 def function1():
-
-
-
-main()
+    t = input()
+    for i in range(int(t)):
+        n = input()
+        turtle_string = input()
+        q
